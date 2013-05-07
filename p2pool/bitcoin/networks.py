@@ -182,8 +182,8 @@ nets = dict(
         DUMB_SCRYPT_DIFF=2**16,
     ),
     bbqcoin=math.Object(
-        P2P_PREFIX='fbc0b6db'.decode('hex'),
-        P2P_PORT=59333,
+        P2P_PREFIX='fde4d942'.decode('hex'),
+        P2P_PORT=19323,
         ADDRESS_VERSION=14,
         RPC_PORT=59332,
         RPC_CHECK=defer.inlineCallbacks(lambda bitcoind: defer.returnValue(
