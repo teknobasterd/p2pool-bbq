@@ -186,7 +186,7 @@ nets = dict(
         MAX_TARGET=2**256//2**20 - 1,
         PERSIST=False,
         WORKER_PORT=8900,
-        BOOTSTRAP_ADDRS='bbq.crabdance.com'.split(' '),
+        BOOTSTRAP_ADDRS='bbq.crabdance.com alduin.cubox.me 174.58.242.26'.split(' '),
         ANNOUNCE_CHANNEL='#p2pool-alt',
         VERSION_CHECK=lambda v: True,
     ),
